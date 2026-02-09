@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gauri More — Portfolio</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="nav">
+    <div class="container nav-inner">
+      <div class="brand"><span class="dot"></span> Gauri More</div>
+      <div class="nav-links">
+        <a class="active" href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="assets/Gauri_More_Resume.pdf">Resume</a>
+      </div>
+    </div>
+  </div>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="h-card">
+          <div class="glow"></div>
+          <h1>Robotics + Software<br/>Engineer</h1>
+          <p class="sub">
+            I build reliable software that interfaces with real hardware—sensors, robots, and data pipelines.
+            Focused on robotics integration, testing/validation, and production-ready systems.
+          </p>
+          <div class="badges">
+            <span class="badge">Python • ROS • Sensors</span>
+            <span class="badge">Linux • Docker • Testing</span>
+            <span class="badge">Toronto / London, ON</span>
+          </div>
+          <div class="btns">
+            <a class="btn primary" href="projects.html">View Projects</a>
+            <a class="btn" href="assets/Gauri_More_Resume.pdf">Resume</a>
+            <a class="btn" href="https://www.linkedin.com/">LinkedIn</a>
+            <a class="btn" href="https://github.com/">GitHub</a>
+          </div>
+        </div>
+
+        <div class="h-card">
+          <h2>Now</h2>
+          <p class="sub muted">
+            Preparing for junior robotics interviews. Showcasing work on Spot payload integration,
+            real-time telemetry systems, and CubeSat ADCS.
+          </p>
+          <div class="badges">
+            <span class="badge">Graduating May 2026</span>
+            <span class="badge">Open to Full-time</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Featured projects</h2>
+      <p class="muted">Skimmable, slide-style pages with architecture + testing + outcomes.</p>
+      <div id="projectsGrid" class="grid"></div>
+    </section>
+
+    <div class="footer">
+      © <span id="y"></span> Gauri More · Built as a static site (fast + simple).
+    </div>
+  </main>
+
+  <script src="assets/main.js"></script>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>

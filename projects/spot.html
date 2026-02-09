@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Spot Sensor Payload Integration — Gauri More</title>
+  <link rel="stylesheet" href="../assets/style.css" />
+</head>
+<body>
+  <div class="nav">
+    <div class="container nav-inner">
+      <div class="brand"><span class="dot"></span> Gauri More</div>
+      <div class="nav-links">
+        <a href="../index.html">Home</a>
+        <a class="active" href="../projects.html">Projects</a>
+        <a href="../assets/Gauri_More_Resume.pdf">Resume</a>
+      </div>
+    </div>
+  </div>
+
+  <main class="container" style="padding:22px 0 44px;">
+    <div class="slides">
+      <section class="slide">
+        <div class="slide-inner">
+          <div class="kicker">Project</div>
+          <h1>Spot Sensor Payload Integration</h1>
+          <p class="sub">
+            Built Python + ROS software to integrate voltage + vibration sensors as a payload on Boston Dynamics Spot
+            for inspection workflows in safety-critical environments.
+          </p>
+          <div class="chips">
+            <span class="chip">Python</span><span class="chip">ROS</span><span class="chip">Sensors</span>
+            <span class="chip">Linux</span><span class="chip">Validation</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide">
+        <div class="slide-inner">
+          <div class="kicker">Slide 1</div>
+          <h2>Problem</h2>
+          <ul class="bullets">
+            <li>Needed reliable sensor readings during robot-assisted inspections.</li>
+            <li>Hardware + software integration required robustness (dropouts, noise, environmental effects).</li>
+            <li>Goal: support safer workflows by shifting inspection time away from high-exposure areas.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="slide">
+        <div class="slide-inner">
+          <div class="kicker">Slide 2</div>
+          <h2>System architecture</h2>
+          <ul class="bullets">
+            <li>ROS nodes handled acquisition, formatting, timestamping, and publishing data.</li>
+            <li>Downstream consumers could log, monitor, and validate readings during runs.</li>
+            <li>Vendor SDK access was coordinated by a senior engineer; I developed within that integration framework.</li>
+          </ul>
+          <div class="media">
+            <img src="../assets/images/spot.jpg" alt="Spot payload / architecture placeholder" />
+          </div>
+        </div>
+      </section>
+
+      <section class="slide">
+        <div class="slide-inner">
+          <div class="kicker">Slide 3</div>
+          <h2>What I implemented</h2>
+          <ul class="bullets">
+            <li>Python ROS node(s) for sensor ingestion and topic publishing.</li>
+            <li>Sanity checks + error handling (timeouts, missing data, unexpected ranges).</li>
+            <li>Logging hooks for repeatable troubleshooting and validation.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="slide">
+        <div class="slide-inner">
+          <div class="kicker">Slide 4</div>
+          <h2>Testing & validation</h2>
+          <ul class="bullets">
+            <li>Started with mocked inputs / replayable sample streams to validate parsing + formatting.</li>
+            <li>Incremental integration: component test → on-robot test → end-to-end run validation.</li>
+            <li>Used logs to isolate software vs hardware vs environment issues.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="slide">
+        <div class="slide-inner">
+          <div class="kicker">Slide 5</div>
+          <h2>Outcome</h2>
+          <ul class="bullets">
+            <li>Enabled sensor-backed inspection runs and improved confidence in collected readings.</li>
+            <li>Supported workflows that reduced time humans spent in high-exposure environments.</li>
+            <li>Next: automate calibration checks and add regression tests for sensor pipelines.</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
