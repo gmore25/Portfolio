@@ -26,16 +26,41 @@ Real-time telemetry ingestion, processing, and race strategy simulation system i
 
 ### Additional Projects
 
-🧪 **Brain Tumor MRI Classification (CNN)**  
+**Brain Tumor MRI Classification (CNN)**  
 Implemented and evaluated multiple convolutional neural network architectures for classifying MRI images, including performance analysis using ROC curves, confusion matrices, and training metrics.  
 → https://github.com/gmore25/Machine-Learning-Project
 
-👗 **AI Stylist (Full-Stack AI Application)**  
+**AI Stylist (Full-Stack AI Application)**  
 Built a full-stack web application that generates personalized outfit recommendations using user-uploaded images, weather data, and multimodal AI APIs.  
 → https://github.com/gmore25/AI_Stylist
 
-🤖 **Robotics Interface (SPOT / JACKAL GUI)**  
+**Robotics Interface (SPOT / JACKAL GUI)**  
 Built a user-facing interface to control and interact with robotic systems in a live demo environment.
+
+**Self-Balancing Robot — Embedded Control System (In Progress)**
+
+Designed and implemented a modular embedded systems project focused on attitude estimation and closed-loop control for a self-balancing robot using ESP32 and IMU sensors.
+
+The project is structured as a multi-phase engineering system, progressing from sensor validation to full closed-loop control.
+
+### Phase 1 — Completed: Attitude Estimation & Sensor Fusion
+- Integrated MPU-6050 IMU with ESP32 via I²C
+- Implemented sensor calibration and drift correction
+- Developed complementary filter for real-time tilt estimation
+- Validated system stability through live serial data visualization
+- Established reliable orientation estimation suitable for control systems
+
+### Engineering Focus
+- Sensor fusion (accelerometer + gyroscope)
+- Real-time embedded signal processing
+- System calibration and validation
+- Deterministic loop-based firmware design
+
+### Planned Phases
+- Motor actuation and torque characterization
+- Closed-loop PD/PID balance control
+- Stability tuning and disturbance rejection
+- Full system integration on mobile platform
 
 ---
 
