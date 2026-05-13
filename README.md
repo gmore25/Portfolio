@@ -10,10 +10,6 @@ I'm a future Master's student in Electrical and Computer Engineering at the Univ
 
 ### Highlighted Projects
 
-**Formula Telemetry & Race Strategy Platform**  
-Real-time telemetry ingestion, processing, and race strategy simulation system inspired by professional motorsport engineering.  
-→ https://github.com/gmore-eng/formula-telemetry-strategy-platform
-
 **Brain Imaging Software (Capstone – Synaptech)**  
 Developed software for processing and analyzing brain imaging data as part of a full-stack engineering capstone project.  
 → https://github.com/UWO-ECE-Software-Engineering/Synaptech
@@ -21,6 +17,10 @@ Developed software for processing and analyzing brain imaging data as part of a 
 **Turbine Inspection System (ETS Project)**  
 Full-stack application for managing turbine inspection workflows, including outage tracking, scope data processing, and engineering reporting.
 → https://github.com/gmore25/ETS-Project 
+
+**Formula Telemetry & Race Strategy Platform**  
+Real-time telemetry ingestion, processing, and race strategy simulation system inspired by professional motorsport engineering.  
+→ https://github.com/gmore-eng/formula-telemetry-strategy-platform
 
 ---
 
