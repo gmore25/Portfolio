@@ -1,6 +1,6 @@
 Hi, I'm Gauri 👋
 
-I'm a Master's student in Electrical and Computer Engineering with a Bachelor's in Software Engineering from the University of Western Ontario. My main focus is on building software for real-world engineering systems. My experience spans nuclear inspection tools, robotics interfaces, and data-driven system design.
+I'm a future Master's student in Electrical and Computer Engineering at the University of Wisconsin-Madison with a Bachelor's in Software Engineering from the University of Western Ontario. My main focus is on building software for real-world engineering systems. My experience spans nuclear inspection tools, robotics interfaces, and data-driven system design.
 
 ### What I Work On
 - Engineering-focused software systems (analysis, simulation, data pipelines)
