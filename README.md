@@ -64,11 +64,11 @@ The project is structured as a multi-phase engineering system, progressing from 
 
 ### Team-Based Engineering Experience
 
-🛰 **Western Engineering Satellite Team**  
+**Western Engineering Satellite Team**  
 Contributed to software and systems development within a multidisciplinary team building satellite technology.
 → https://github.com/westernsatelliteteam 
 
-🏎 **Formula Student / Motorsport Engineering Team**  
+**Formula Student / Motorsport Engineering Team**  
 Collaborated on engineering systems related to vehicle performance and data, working in a team environment similar to real-world motorsport development.
 → https://github.com/Western-Formula-Racing 
 
